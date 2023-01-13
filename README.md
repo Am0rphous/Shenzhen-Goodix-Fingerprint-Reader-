@@ -7,7 +7,7 @@ Bus 001 Device 006: ID 27c6:5395 Shenzhen Goodix Technology Co.,Ltd. Fingerprint
 ````
 
 To get it working do the following
-1. Download and install `libfprint-2-tod1_1.90.1+tod1-0ubuntu4_amd64.deb`
+1. Download and install `libfprint-2-tod1_1.90.1+tod1-0ubuntu4_amd64.deb` from [ubuntu](https://packages.ubuntu.com/focal/amd64/libfprint-2-tod1/download)
 ````
 wget http://ubuntu.mirrors.tds.net/ubuntu/pool/main/libf/libfprint/libfprint-2-tod1_1.90.1+tod1-0ubuntu4_amd64.deb
 sudo dpkg -i libfprint-2-tod1_1.90.1+tod1-0ubuntu4_amd64.deb 
