@@ -88,5 +88,5 @@ sudo apt install howdy -y
 
 
 ## Try this
-1. https://www.reddit.com/r/Dell/comments/ixwgm0/xps_15_9500_ubuntu_popos_fingerprint_howto/
-  1.1. https://askubuntu.com/questions/1015416/use-fingerprint-authentication-not-only-for-login
+- https://www.reddit.com/r/Dell/comments/ixwgm0/xps_15_9500_ubuntu_popos_fingerprint_howto/
+  - https://askubuntu.com/questions/1015416/use-fingerprint-authentication-not-only-for-login
