@@ -90,3 +90,6 @@ sudo apt install howdy -y
 ## Try this
 - https://www.reddit.com/r/Dell/comments/ixwgm0/xps_15_9500_ubuntu_popos_fingerprint_howto/
   - https://askubuntu.com/questions/1015416/use-fingerprint-authentication-not-only-for-login
+- Didnt help either http://dell.archive.canonical.com/updates/pool/public/libf/libfprint-2-tod1-broadcom/
+- Hm? https://github.com/adnanjee/Goodix-GF3208
+- Nope: https://www.dell.com/community/Linux-General/No-driver-for-fingerprint-scanner-Goodix-GF3208-on-Linux/m-p/6242579
