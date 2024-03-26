@@ -4,7 +4,7 @@ This is just some notes i have related to enabling finger print reader on Linux 
 
 | OS version | State| Date|
 | - | - | - |
-| Ubuntu 23.04|**Not working**| March 2024|
+| Ubuntu 23.04|Not working| March 2024|
 
 <br>
 
