@@ -2,7 +2,7 @@
 
 This is just some notes i have related to enabling finger print reader on Linux on a Dell laptop. In the end i didn't get Kali (Debian) to work using the knowledge below. Shenzhen's source code for the fingerprint reader is closed btw >:( . If you get it to work, please give me a pull request or open an issue, and I will gladly update and clean up the resources below, thanks.
 
-According to the device list at https://gitlab.freedesktop.org/libfprint/wiki/-/wikis/Unsupported%20Devices, the Shenzhen Fingerprint Reader for device ID 27c6:5395 is not supported. Yet there might be a fix to get it to work:
+According to the device list at https://gitlab.freedesktop.org/libfprint/wiki/-/wikis/Unsupported%20Devices, the Shenzhen Fingerprint Reader for device ID 27c6:5395 is not supported.
 
 lsusb shows
 ````
