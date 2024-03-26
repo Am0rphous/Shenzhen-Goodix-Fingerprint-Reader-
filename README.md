@@ -2,9 +2,9 @@
 
 This is just some notes i have related to enabling finger print reader on Linux on a Dell laptop. In the end i didn't get Kali (Debian) to work using the knowledge below. Shenzhen's source code for the fingerprint reader is closed btw >:( . If you get it to work, please give me a pull request or open an issue, and I will gladly update and clean up the resources below, thanks.<br><br>
 
-| OS version | Not working| Date|
+| OS version | State| Date|
 | - | - | - |
-| Ubuntu 23.04|**X**| March 2024|
+| Ubuntu 23.04|**Not working**| March 2024|
 
 <br>
 
