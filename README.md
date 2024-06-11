@@ -15,7 +15,7 @@ lsusb shows
 Bus 001 Device 006: ID 27c6:5395 Shenzhen Goodix Technology Co.,Ltd. Fingerprint Reader
 ````
 
-To get it working do the following
+I tried the following without success:
 1. Download and install `libfprint-2-tod1_1.90.1+tod1-0ubuntu4_amd64.deb` from [ubuntu](https://packages.ubuntu.com/focal/amd64/libfprint-2-tod1/download)
 ````
 wget http://ubuntu.mirrors.tds.net/ubuntu/pool/main/libf/libfprint/libfprint-2-tod1_1.90.1+tod1-0ubuntu4_amd64.deb
@@ -27,19 +27,15 @@ wget http://dell.archive.canonical.com/updates/pool/public/libf/libfprint-2-tod1
 $ sudo dpkg -i libfprint-2-tod1-goodix_0.0.4-0ubuntu1somerville1_amd64.deb
 ````
 
-3.
+3. Tried running some commands do fix firmware and service
 ````
 sudo pam-auth-update
 fprintd-verify
-fwupdmgr update
-sudo systemctl restart fprintd.service
-sudo systemctl status fprintd.service
-fprintd-enroll
-````
-
-Erro checking
-````
-journalctl -f -u fprintd.service
+fwupdmgr update                            #Updates firmware
+sudo systemctl restart fprintd.service     #Restarts the fprintd service
+sudo systemctl status fprintd.service      #Lets check the status
+fprintd-enroll                             #Starts the enrolling process when setting up the figngerprint
+journalctl -f -u fprintd.service           #any error should show here
 ````
 
 
