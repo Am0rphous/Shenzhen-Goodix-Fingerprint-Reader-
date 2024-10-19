@@ -1,5 +1,9 @@
 # Shenzhen-Goodix-Fingerprint-Reader
 
+**October 2024 update:** There might be a possible fix I haven't tried to get this to work. Check out [this](https://www.reddit.com/r/archlinux/comments/16jdx2x/goodix_27c65395_passing_from_goodixfpdump_to/) reddit post. It uses the [goodix-fp-dump](https://github.com/goodix-fp-linux-dev/goodix-fp-dump) repo, which also mentions a [Discord server](https://discord.com/invite/6xZ6k34Vqg) which may give more recent intel about progress. (Btw I sold the computer so let me know if anyone get this to work.) Cheers!
+
+<br>
+
 This is just some notes i have related to enabling finger print reader on Linux on a Dell laptop. In the end i didn't get Kali (Debian) to work using the knowledge below. Shenzhen's source code for the fingerprint reader is closed btw >:( . If you get it to work, please give me a pull request or open an issue, and I will gladly update and clean up the resources below, thanks.<br><br>
 
 | OS version | State| Date|
